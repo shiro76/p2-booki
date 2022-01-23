@@ -1,0 +1,1082 @@
+@media screen and (max-width: 992px){
+    *
+    {
+        text-decoration: none;
+        font-family: 'Raleway',sans-serif;
+    }
+
+    a
+    {
+        color: black;
+    }
+
+    #f1:hover,#f2:hover,#f3:hover,#f4:hover,#f5:hover
+    {
+        width: 98%;
+        box-shadow: 5px 5px 5px #0065FC;
+    }
+
+    .structure
+    {
+        width: auto;
+        margin: auto
+    }
+
+    /*  ------  HEADER  -----*/
+    .header
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .logoB
+    {
+        margin-left: 70px;
+        width: 180px;
+    }
+
+    .nav
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .lien
+    {
+        border-bottom: solid 3px #F2F2F2;
+        margin: auto;
+        font-size: 35px;
+        margin-right: 20px;
+        text-decoration: none; 
+    }
+
+    #lien1:hover,#lien2:hover
+    {
+        border-bottom: solid 3px #0065FC;
+        padding: 2px;
+        color: #0065FC;
+    }
+
+    /* ----- SEARCHBOX ----- */
+
+    .searchBox{
+        margin-left: 10px;
+    }
+    
+    .box /* SearchBox_Bar */
+    { 
+        display: flex;
+        flex-direction: row;
+        border-radius: 20px;
+        align-items: center;
+        width: 100%;
+        height: 45px;
+        margin: auto;
+    }
+    
+    .searchBar
+    {
+        border: solid;
+        border-color: #F2F2F2;
+        width: 300px;
+        height: 39px;
+        outline: none;
+        border-right: hidden;
+        padding-left: 10px;
+    }
+    
+    .searchButtonBox
+    {
+        width: 44px;
+    }
+
+    .searchButton
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0065FC;
+        color: white;
+        border-radius: 15px;
+        width: 50px;
+        height: 43px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border: hidden;
+        font-size: 0px;
+    }
+    
+    #loupe
+    {
+        margin-right: 5px;
+        font-size: 16px;
+    }
+
+    .searchButton_text
+    {
+        visibility: hidden;
+    }
+    
+    #mapmarker
+    {
+        border-radius: 15px;
+        color: black;  
+    }
+    
+    #icone
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #F2F2F2;
+        width: 10%;
+        height: 102%;
+        border-radius: 10px; 
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    /* ---- FILTRES ---- */
+
+    #Filtres{
+        margin-left: 15px;
+    }
+
+    .filtres_container
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .filtres_container2
+    {
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: -10px;
+    }
+    
+    .filtre
+    {
+        display: flex;
+        align-items: center;
+        border: solid;
+        border-radius: 30px;
+        width: 100%;
+        height: 33px;
+        border-color: #F2F2F2;
+        margin: 10px;
+        border-left: hidden;
+    }
+    
+    .logo
+    {   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        width: 37px;
+        height: 37px;
+        background: #DEEBFF;
+        color: #0065FC;
+    }
+
+    .logo i
+    {
+        padding: 0 11px;
+    }  
+
+    .titre
+    {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .InfoBox
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    #icoI
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid #F2F2F2;
+        color: #0065FC ;
+        border-radius: 30px;
+        font-size: 15px;
+        height:20px;
+        width: 20px;
+        margin-right: 10px;
+    }
+
+    /* ---- 3eme partie ----  */
+    .flexcontainer
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .container2
+    {   
+        order: 2;
+        border-radius: 15px;
+    }
+    
+    #titre2
+    {
+        margin-left: 15px;
+    }
+        
+    .container
+    {   
+        display:flex ;    
+        flex-direction: column;
+        border: solid;
+        border-color: #F2F2F2;
+        border-radius: 15px;
+        height: 292px;
+        margin-bottom: 20px;
+        box-shadow: 3px 3px 3px #F2F2F2;
+        margin: 15px;
+    }
+
+    .viewMore
+    {
+        color: black;
+        margin-left: 15px;
+    }
+
+    .block6img
+    {
+        border-radius: 15px;
+        height: 70%;
+        width: 100%;
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+    }
+    
+    .images
+    {
+        width: 99%;
+        height: 100%;
+        border-radius: 15px;
+        object-fit: cover;
+        margin: 2px;
+        margin-top: 3px;
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+    }
+
+    .titreH
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+        width: 100%;
+        margin: 2px;
+        font-size: 20px;
+        margin-left: 8px;
+        margin-bottom: 10px;
+        margin-top: 8px;
+    }
+    
+    .stars
+    {
+        color: #0065FC;
+        width: auto;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    /* 3eme partie 2eme block*/
+    .container3
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #F2F2F2;
+        margin: 10px
+    }
+    
+    #titreLogo
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%
+    }    
+    
+    .b
+    {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+        width: 85%;
+        height: 180px;
+        border-radius: 15px;
+        background-color: white
+    }
+    
+    .block3img
+    {
+        height: 95%;
+        width: 45%;
+        border-radius: 15px;
+        margin: 4px;
+        margin-left: 3px
+    }
+    
+    .image
+    {
+        height: 100%;
+        width: 100%;
+        object-fit:cover;
+        border-radius: 15px;
+        margin: auto;
+        border-top-right-radius: 0%;
+        border-bottom-right-radius: 0%;
+    }
+    
+    .titreP
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        width: 80%;
+        margin: 4px;
+        font-size: 20px;
+    }
+
+    .titre2
+    {
+        margin-top: -22px;
+
+    }
+    
+    .etoiles
+    {
+        height: 10%;
+        width: 50%;
+        color: #0065FC;
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+
+    /* ----- 4eme partie ----- */
+
+    #acitivité{
+        margin-left: 15px;
+    }
+    .blocAct /* fenetre activité a marseille */
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .act /*  fenetre premier et 4eme block */
+    {
+        width: 100%;
+    }
+    
+    .B1 /* 1er et 4eme block */
+    
+    {
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        border-color: #F2F2F2;
+        justify-content: space-between;
+        margin: 15px;
+        box-shadow: 2px 2px 2px 2px #F2F2F2;
+
+    }
+    
+    .act2 /* div fenetre (2-3) et (5-6) */
+    {
+        width: 100%;
+    }
+    
+    
+    .block1,.block2 /*  fenetre block 2 et 6 + fenetre block 3 et 5*/
+    {
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        border-color: #F2F2F2;
+        width: auto;
+        margin: 15px;
+    }
+
+    
+    .B2 /* block 2 et 6 */
+    {
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        box-shadow: 2px 2px 2px 2px #F2F2F2;
+        margin-bottom: 10px;
+    }
+    
+    .B3 /* block 3 et 5 */
+    {
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        box-shadow: 2px 2px 2px 2px #F2F2F2;
+    }
+    
+    .image1
+    {
+        border-radius: 15px;
+        max-width: 100%;
+        height: 200px;
+        object-fit: cover; 
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px; 
+    }
+
+    .image1
+    {
+        border-radius: 15px;
+        max-width: 100%;
+        height: 200px;
+        width: auto;
+        object-fit: cover; 
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px; 
+    }
+    
+    .image2
+    {
+        border-radius: 15px;
+        max-width: 100%;
+        width: auto;
+        height: 200px;
+        object-fit: cover; 
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px; 
+    }
+    
+    .image6
+    {
+        border-radius: 15px;
+        max-width: 100%;
+        height: 200px;
+        width: auto;
+        object-fit: cover; 
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px; 
+    }
+    
+    .image3
+    {
+        border-radius: 15px;
+        max-width: 100%;
+        height: 200px;
+        width: 100%;
+        object-fit: cover; 
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px; 
+    }
+    
+
+    .titreVP
+    {
+        margin: 10px;
+    }
+
+    .titre_activité
+    {
+        margin: auto;
+    }
+    
+    /* FOOTER */
+    footer
+    {
+        background-color: #F2F2F2;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    
+    .footer
+    {
+        height: 100%;
+        width: auto;
+        margin-left: 20px;
+        margin-bottom: 40px;
+    }
+    
+    ul,li
+    {
+        list-style  : none;
+        color: black;
+    }
+
+    .link2
+    {
+        text-decoration: none;
+    }
+}
+
+
+
+        /*----- TEST -----*/
+
+@media screen and (max-width: 992px){
+
+    body {
+        position: absolute;
+        width: 100%;
+        margin: 0;
+      }
+
+    *
+    {
+        text-decoration: none;
+        font-family: 'Raleway',sans-serif;
+    }
+
+    a
+    {
+        color: black;
+    }
+
+    #f1:hover,#f2:hover,#f3:hover,#f4:hover,#f5:hover
+    {
+        width: 98%;
+        box-shadow: 5px 5px 5px #0065FC;
+    }
+
+    .structure
+    {
+        width: auto;
+        margin: auto
+    }
+
+    /*  ------  HEADER  -----*/
+    .header
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .logoB
+    {
+        margin-left: 70px;
+        width: 180px;
+    }
+
+    .nav
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .lien
+    {
+        border-bottom: solid 3px #F2F2F2;
+        margin: auto;
+        font-size: 35px;
+        margin-right: 20px;
+        text-decoration: none; 
+    }
+
+    #lien1:hover,#lien2:hover
+    {
+        border-bottom: solid 3px #0065FC;
+        padding: 2px;
+        color: #0065FC;
+    }
+
+    /* ----- SEARCHBOX ----- */
+
+    
+    .box /* SearchBox_Bar */
+    { 
+        display: flex;
+        flex-direction: row;
+        border-radius: 20px;
+        align-items: center;
+        width: 100%;
+        height: 45px;
+        margin: auto;
+    }
+    
+    .searchBar
+    {
+        border: solid;
+        border-color: #F2F2F2;
+        width: 300px;
+        height: 39px;
+        outline: none;
+        border-right: hidden;
+        padding-left: 10px;
+    }
+    
+    .searchButtonBox
+    {
+        width: 44px;
+    }
+
+    .searchButton
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0065FC;
+        color: white;
+        border-radius: 15px;
+        width: 50px;
+        height: 43px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border: hidden;
+        font-size: 0px;
+    }
+    
+    #loupe
+    {
+        margin-right: 5px;
+        font-size: 16px;
+    }
+
+    .searchButton_text
+    {
+        visibility: hidden;
+    }
+    
+    #mapmarker
+    {
+        border-radius: 15px;
+        color: black;  
+    }
+    
+    #icone
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #F2F2F2;
+        width: 10%;
+        height: 102%;
+        border-radius: 10px; 
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    /* ---- FILTRES ---- */
+
+    .filtres_container
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .filtres_container2
+    {
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: -10px;
+    }
+    
+    .filtre
+    {
+        display: flex;
+        align-items: center;
+        border: solid;
+        border-radius: 30px;
+        width: 100%;
+        height: 33px;
+        border-color: #F2F2F2;
+        margin: 10px;
+        border-left: hidden;
+    }
+    
+    .logo
+    {   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        width: 37px;
+        height: 37px;
+        background: #DEEBFF;
+        color: #0065FC;
+    }
+
+    .logo i
+    {
+        padding: 0 11px;
+    }  
+
+    .titre
+    {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .InfoBox
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 10px ;
+        font-size: 18px;
+    }
+
+    #icoI
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid #F2F2F2;
+        color: #0065FC ;
+        border-radius: 30px;
+        font-size: 15px;
+        height:20px;
+        width: 20px;
+        margin-right: 10px;
+    }
+
+    /* ---- 3eme partie ----  */
+    .flexcontainer
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .container2
+    {   
+        order: 2;
+        border-radius: 15px;
+    }
+    
+    #titre2
+    {
+        margin-left: 15px;
+    }
+        
+    .container
+    {   
+        display:flex ;    
+        flex-direction: column;
+        border: solid;
+        border-color: #F2F2F2;
+        border-radius: 15px;
+        height: 292px;
+        margin-bottom: 20px;
+        box-shadow: 3px 3px 3px #F2F2F2;
+        margin: 15px;
+    }
+
+    .viewMore
+    {
+        color: black;
+        margin-left: 15px;
+    }
+
+    .block6img
+    {
+        border-radius: 15px;
+        height: 70%;
+        width: 100%;
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+    }
+    
+    .images
+    {
+        width: 99%;
+        height: 100%;
+        border-radius: 15px;
+        object-fit: cover;
+        margin: 2px;
+        margin-top: 3px;
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+    }
+
+    .titreH
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+        width: 100%;
+        margin: 2px;
+        font-size: 20px;
+        margin-left: 8px;
+        margin-bottom: 10px;
+        margin-top: 8px;
+    }
+    
+    .stars
+    {
+        color: #0065FC;
+        width: auto;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    /* 3eme partie 2eme block*/
+    .container3
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #F2F2F2;
+        width: 100%;
+        margin-left:-1px;
+    }
+    
+    #titreLogo
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%
+    }    
+    
+    .b
+    {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+        width: 85%;
+        height: 180px;
+        border-radius: 15px;
+        background-color: white
+    }
+    
+    .block3img
+    {
+        height: 95%;
+        width: 45%;
+        border-radius: 15px;
+        margin: 4px;
+        margin-left: 3px
+    }
+    
+    .image
+    {
+        height: 100%;
+        width: 100%;
+        object-fit:cover;
+        border-radius: 15px;
+        margin: auto;
+        border-top-right-radius: 0%;
+        border-bottom-right-radius: 0%;
+    }
+    
+    .titreP
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        width: 80%;
+        margin: 4px;
+        font-size: 20px;
+    }
+
+    .titre2
+    {
+        margin-top: -22px;
+
+    }
+    
+    .etoiles
+    {
+        height: 10%;
+        width: 50%;
+        color: #0065FC;
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+
+    /* ----- 4eme partie ----- */
+    .blocAct /* fenetre activité a marseille */
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .act /*  fenetre premier et 4eme block */
+    {
+        width: 100%;
+    }
+    
+    .B1 /* 1er et 4eme block */
+    
+    {
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        border-color: #F2F2F2;
+        justify-content: space-between;
+        margin: 15px;
+        box-shadow: 2px 2px 2px 2px #F2F2F2;
+
+    }
+    
+    .act2 /* div fenetre (2-3) et (5-6) */
+    {
+        width: 100%;
+    }
+    
+    
+    .block1,.block2 /*  fenetre block 2 et 6 + fenetre block 3 et 5*/
+    {
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        border-color: #F2F2F2;
+        width: auto;
+        margin: 15px;
+    }
+
+    
+    .B2 /* block 2 et 6 */
+    {
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        box-shadow: 2px 2px 2px 2px #F2F2F2;
+        margin-bottom: 10px;
+    }
+    
+    .B3 /* block 3 et 5 */
+    {
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        box-shadow: 2px 2px 2px 2px #F2F2F2;
+    }
+    
+    .image1
+    {
+        border-radius: 15px;
+        max-width: 100%;
+        height: 200px;
+        object-fit: cover; 
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px; 
+    }
+
+    .image1
+    {
+        border-radius: 15px;
+        max-width: 100%;
+        height: 200px;
+        width: auto;
+        object-fit: cover; 
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px; 
+    }
+    
+    .image2
+    {
+        border-radius: 15px;
+        max-width: 100%;
+        width: auto;
+        height: 200px;
+        object-fit: cover; 
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px; 
+    }
+    
+    .image6
+    {
+        border-radius: 15px;
+        max-width: 100%;
+        height: 200px;
+        width: auto;
+        object-fit: cover; 
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px; 
+    }
+    
+    .image3
+    {
+        border-radius: 15px;
+        max-width: 100%;
+        height: 200px;
+        width: 100%;
+        object-fit: cover; 
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px; 
+    }
+    
+
+    .titreVP
+    {
+        margin: 10px;
+    }
+
+    .titre_activité
+    {
+        margin: auto;
+    }
+    
+    /* FOOTER */
+    footer
+    {
+        background-color: #F2F2F2;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    
+    .footer
+    {
+        height: 100%;
+        width: auto;
+        margin-left: 20px;
+        margin-bottom: 40px;
+    }
+    
+    ul,li
+    {
+        list-style  : none;
+        color: black;
+    }
+
+    .link2
+    {
+        text-decoration: none;
+    }
+}
